@@ -1,0 +1,42 @@
+2023-04-26 16:02:28.044805: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2023-04-26 16:02:28.067394: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-04-26 16:02:28.067517: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Quadro T2000 major: 7 minor: 5 memoryClockRate(GHz): 1.785
+pciBusID: 0000:01:00.0
+2023-04-26 16:02:28.067584: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory
+2023-04-26 16:02:28.067636: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory
+2023-04-26 16:02:28.067684: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory
+2023-04-26 16:02:28.067733: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory
+2023-04-26 16:02:28.067782: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory
+2023-04-26 16:02:28.067829: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory
+2023-04-26 16:02:28.067877: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2023-04-26 16:02:28.067888: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-04-26 16:02:28.068099: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2023-04-26 16:02:28.072396: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2601325000 Hz
+2023-04-26 16:02:28.072765: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x558d887d9080 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2023-04-26 16:02:28.072783: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2023-04-26 16:02:28.123382: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-04-26 16:02:28.123572: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x558d8877e490 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2023-04-26 16:02:28.123594: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Quadro T2000, Compute Capability 7.5
+2023-04-26 16:02:28.123660: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-04-26 16:02:28.123669: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      
+2023-04-26 16:02:28.201550: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-04-26 16:02:28.201673: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: Quadro T2000 major: 7 minor: 5 memoryClockRate(GHz): 1.785
+pciBusID: 0000:01:00.0
+2023-04-26 16:02:28.201758: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory
+2023-04-26 16:02:28.201810: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory
+2023-04-26 16:02:28.201857: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory
+2023-04-26 16:02:28.201904: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory
+2023-04-26 16:02:28.201949: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory
+2023-04-26 16:02:28.201993: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory
+2023-04-26 16:02:28.202041: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2023-04-26 16:02:28.202051: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2023-04-26 16:02:28.202065: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-04-26 16:02:28.202073: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2023-04-26 16:02:28.202078: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+Using TensorFlow backend.
+/home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/ibmfl/connection/flask_connection.py:254: UserWarning: The 'environ['werkzeug.server.shutdown']' function is deprecated and will be removed in Werkzeug 2.1.
+  func()
