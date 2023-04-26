@@ -1,0 +1,1284 @@
+2023-04-26 16:28:41,620 | 1.1.0 | INFO | ibmfl.util.config                             | Getting config from file
+2023-04-26 16:28:41,620 | 1.1.0 | INFO | ibmfl.util.config                             | Getting details from config file.
+2023-04-26 16:28:43,351 | 1.1.0 | INFO | ibmfl.util.config                             | No metrics config provided for this setup.
+2023-04-26 16:28:43,351 | 1.1.0 | INFO | ibmfl.util.config                             | No evidencia recordeer config provided for this setup.
+2023-04-26 16:28:43,351 | 1.1.0 | INFO | ibmfl.util.data_handlers.mnist_keras_data_handler | Loaded training data from /home/trevormaxjs/Documents/Engineering/Research/testtest/unbalanced_data/data_party51.npz
+2023-04-26 16:28:43,398 | 1.1.0 | WARNING | tensorflow                                    | From /home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/ibmfl/model/keras_fl_model.py:59: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+2023-04-26 16:28:43,399 | 1.1.0 | WARNING | tensorflow                                    | From /home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/ibmfl/model/keras_fl_model.py:60: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2023-04-26 16:28:43,463 | 1.1.0 | WARNING | tensorflow                                    | From /home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2023-04-26 16:28:43,464 | 1.1.0 | WARNING | tensorflow                                    | From /home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+2023-04-26 16:28:43,482 | 1.1.0 | WARNING | tensorflow                                    | From /home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3976: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+2023-04-26 16:28:43,484 | 1.1.0 | WARNING | tensorflow                                    | From /home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:133: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+2023-04-26 16:28:43,489 | 1.1.0 | WARNING | tensorflow                                    | From /home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2023-04-26 16:28:43,543 | 1.1.0 | WARNING | tensorflow                                    | From /home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:174: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+2023-04-26 16:28:43,544 | 1.1.0 | WARNING | tensorflow                                    | From /home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:181: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2023-04-26 16:28:43,545 | 1.1.0 | WARNING | tensorflow                                    | From /home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:190: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+2023-04-26 16:28:43,545 | 1.1.0 | WARNING | tensorflow                                    | From /home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:199: The name tf.is_variable_initialized is deprecated. Please use tf.compat.v1.is_variable_initialized instead.
+
+2023-04-26 16:28:43,561 | 1.1.0 | WARNING | tensorflow                                    | From /home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:206: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+2023-04-26 16:28:43,598 | 1.1.0 | WARNING | tensorflow                                    | From /home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/keras/optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+2023-04-26 16:28:43,602 | 1.1.0 | WARNING | tensorflow                                    | From /home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3295: The name tf.log is deprecated. Please use tf.math.log instead.
+
+2023-04-26 16:28:43,613 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | RestSender initialized
+2023-04-26 16:28:43,614 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Receiver Initialized
+2023-04-26 16:28:43,614 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Initializing Flask application
+2023-04-26 16:28:43,617 | 1.1.0 | INFO | ibmfl.party.party                             | Party initialization successful
+2023-04-26 16:28:43,617 | 1.1.0 | INFO | ibmfl.party.party                             | Party start successful
+2023-04-26 16:28:43,617 | 1.1.0 | INFO | ibmfl.party.party                             | Registering party...
+2023-04-26 16:28:43,621 | 1.1.0 | INFO | werkzeug                                      |  * Running on http://192.168.1.176:8051/ (Press CTRL+C to quit)
+2023-04-26 16:28:43,621 | 1.1.0 | INFO | ibmfl.party.party                             | Registration Successful
+2023-04-26 16:30:21,864 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:30:21,865 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:30:21,866 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:30:21,866 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:30:21,867 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:30:21] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:30:21,867 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:30:21,867 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:30:21,868 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:30:21,868 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | No model update was provided.
+2023-04-26 16:30:21,868 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:30:21,868 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+2023-04-26 16:30:22,084 | 1.1.0 | WARNING | tensorflow                                    | From /home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2023-04-26 16:30:22,552 | 1.1.0 | WARNING | tensorflow                                    | From /home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+2023-04-26 16:30:22,558 | 1.1.0 | WARNING | tensorflow                                    | From /home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 2.2826 - acc: 0.1562
+200/200 [==============================] - 2s 9ms/step - loss: 2.2209 - acc: 0.1950
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 1.9232 - acc: 0.3203
+200/200 [==============================] - 1s 7ms/step - loss: 1.8297 - acc: 0.3650
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 2.0485 - acc: 0.2422
+200/200 [==============================] - 1s 6ms/step - loss: 2.0607 - acc: 0.2700
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 1.6250 - acc: 0.6641
+200/200 [==============================] - 1s 5ms/step - loss: 1.5136 - acc: 0.6500
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 1.1387 - acc: 0.6172
+200/200 [==============================] - 1s 6ms/step - loss: 1.2900 - acc: 0.5600
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 1.5041 - acc: 0.5391
+200/200 [==============================] - 1s 7ms/step - loss: 1.3721 - acc: 0.5750
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.9023 - acc: 0.7109
+200/200 [==============================] - 2s 8ms/step - loss: 0.8809 - acc: 0.7100
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.7632 - acc: 0.7344
+200/200 [==============================] - 2s 10ms/step - loss: 0.7468 - acc: 0.7550
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.6241 - acc: 0.8047
+200/200 [==============================] - 2s 9ms/step - loss: 0.6441 - acc: 0.8000
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.8143 - acc: 0.7109
+200/200 [==============================] - 2s 9ms/step - loss: 0.9026 - acc: 0.7150
+2023-04-26 16:30:37,902 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 4ms/step
+2023-04-26 16:30:39,017 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.72, 'precision micro': 0.9, 'recall micro': 0.59, 'f1 macro': 0.51, 'precision macro': 0.75, 'recall macro': 0.46, 'f1 weighted': 0.63, 'precision weighted': 0.92, 'recall weighted': 0.59}
+2023-04-26 16:30:39,017 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.7831825613975525, 'acc': 0.7207207083702087, 'f1 micro': 0.72, 'precision micro': 0.9, 'recall micro': 0.59, 'f1 macro': 0.51, 'precision macro': 0.75, 'recall macro': 0.46, 'f1 weighted': 0.63, 'precision weighted': 0.92, 'recall weighted': 0.59}
+2023-04-26 16:30:39,017 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:31:16,712 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:31:16,786 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:31:16,786 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:31:16,787 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:31:16] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:31:16,789 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:31:16,789 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:31:16,789 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:31:16,789 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:31:16,797 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 1ms/step
+2023-04-26 16:31:17,154 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.87, 'precision micro': 1.0, 'recall micro': 0.77, 'f1 macro': 0.67, 'precision macro': 0.8, 'recall macro': 0.6, 'f1 weighted': 0.85, 'precision weighted': 1.0, 'recall weighted': 0.77}
+2023-04-26 16:31:17,154 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.4826292097568512, 'acc': 0.8918918967247009, 'f1 micro': 0.87, 'precision micro': 1.0, 'recall micro': 0.77, 'f1 macro': 0.67, 'precision macro': 0.8, 'recall macro': 0.6, 'f1 weighted': 0.85, 'precision weighted': 1.0, 'recall weighted': 0.77}
+2023-04-26 16:31:17,154 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:31:17,154 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.6733 - acc: 0.7891
+200/200 [==============================] - 2s 9ms/step - loss: 0.7767 - acc: 0.7500
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 1.1091 - acc: 0.6562
+200/200 [==============================] - 1s 7ms/step - loss: 1.0923 - acc: 0.6450
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.7547 - acc: 0.7656
+200/200 [==============================] - 2s 9ms/step - loss: 0.7030 - acc: 0.7850
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 1.0076 - acc: 0.7344
+200/200 [==============================] - 2s 10ms/step - loss: 0.9218 - acc: 0.7250
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.5192 - acc: 0.8516
+200/200 [==============================] - 2s 9ms/step - loss: 0.4762 - acc: 0.8450
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.3410 - acc: 0.9062
+200/200 [==============================] - 2s 9ms/step - loss: 0.3902 - acc: 0.8750
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.4571 - acc: 0.8516
+200/200 [==============================] - 2s 8ms/step - loss: 0.5034 - acc: 0.8450
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.3911 - acc: 0.8828
+200/200 [==============================] - 2s 8ms/step - loss: 0.4174 - acc: 0.8750
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.4068 - acc: 0.8750
+200/200 [==============================] - 1s 6ms/step - loss: 0.3623 - acc: 0.8850
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.2662 - acc: 0.9219
+200/200 [==============================] - 1s 5ms/step - loss: 0.2656 - acc: 0.9250
+2023-04-26 16:31:33,129 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 540us/step
+2023-04-26 16:31:33,293 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.92, 'precision micro': 0.93, 'recall micro': 0.9, 'f1 macro': 0.7, 'precision macro': 0.73, 'recall macro': 0.69, 'f1 weighted': 0.92, 'precision weighted': 0.94, 'recall weighted': 0.9}
+2023-04-26 16:31:33,293 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.2813025712966919, 'acc': 0.9189189076423645, 'f1 micro': 0.92, 'precision micro': 0.93, 'recall micro': 0.9, 'f1 macro': 0.7, 'precision macro': 0.73, 'recall macro': 0.69, 'f1 weighted': 0.92, 'precision weighted': 0.94, 'recall weighted': 0.9}
+2023-04-26 16:31:33,293 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:32:33,687 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:32:33,750 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:32:33,751 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:32:33,751 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:32:33,752 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:32:33,752 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:32:33,752 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:32:33,752 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:32:33] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:32:33,761 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 2ms/step
+2023-04-26 16:32:34,251 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.96, 'precision micro': 0.98, 'recall micro': 0.94, 'f1 macro': 0.76, 'precision macro': 0.79, 'recall macro': 0.73, 'f1 weighted': 0.96, 'precision weighted': 0.98, 'recall weighted': 0.94}
+2023-04-26 16:32:34,251 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.22487880289554596, 'acc': 0.954954981803894, 'f1 micro': 0.96, 'precision micro': 0.98, 'recall micro': 0.94, 'f1 macro': 0.76, 'precision macro': 0.79, 'recall macro': 0.73, 'f1 weighted': 0.96, 'precision weighted': 0.98, 'recall weighted': 0.94}
+2023-04-26 16:32:34,251 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:32:34,252 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.3600 - acc: 0.8672
+200/200 [==============================] - 2s 8ms/step - loss: 0.4820 - acc: 0.8500
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.6019 - acc: 0.7891
+200/200 [==============================] - 2s 11ms/step - loss: 0.5635 - acc: 0.7950
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.6136 - acc: 0.8125
+200/200 [==============================] - 2s 10ms/step - loss: 0.5733 - acc: 0.8150
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.3631 - acc: 0.8672
+200/200 [==============================] - 1s 5ms/step - loss: 0.3261 - acc: 0.8950
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.2316 - acc: 0.9297
+200/200 [==============================] - 1s 5ms/step - loss: 0.2738 - acc: 0.9050
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1895 - acc: 0.9531
+200/200 [==============================] - 1s 5ms/step - loss: 0.1843 - acc: 0.9400
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1734 - acc: 0.9531
+200/200 [==============================] - 1s 4ms/step - loss: 0.1685 - acc: 0.9500
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1545 - acc: 0.9688
+200/200 [==============================] - 1s 6ms/step - loss: 0.1327 - acc: 0.9750
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0960 - acc: 0.9844
+200/200 [==============================] - 1s 6ms/step - loss: 0.1054 - acc: 0.9650
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1877 - acc: 0.9375
+200/200 [==============================] - 2s 8ms/step - loss: 0.1713 - acc: 0.9450
+2023-04-26 16:32:48,157 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 2ms/step
+2023-04-26 16:32:48,524 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.93, 'precision micro': 0.94, 'recall micro': 0.92, 'f1 macro': 0.73, 'precision macro': 0.74, 'recall macro': 0.72, 'f1 weighted': 0.93, 'precision weighted': 0.94, 'recall weighted': 0.92}
+2023-04-26 16:32:48,525 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.26010066270828247, 'acc': 0.9369369149208069, 'f1 micro': 0.93, 'precision micro': 0.94, 'recall micro': 0.92, 'f1 macro': 0.73, 'precision macro': 0.74, 'recall macro': 0.72, 'f1 weighted': 0.93, 'precision weighted': 0.94, 'recall weighted': 0.92}
+2023-04-26 16:32:48,525 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:33:40,554 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:33:40,637 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:33:40,637 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:33:40,637 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:33:40,642 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:33:40,642 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:33:40,642 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:33:40,642 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:33:40] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:33:40,649 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 1ms/step
+2023-04-26 16:33:41,175 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.95, 'precision micro': 0.96, 'recall micro': 0.95, 'f1 macro': 0.75, 'precision macro': 0.78, 'recall macro': 0.74, 'f1 weighted': 0.95, 'precision weighted': 0.96, 'recall weighted': 0.95}
+2023-04-26 16:33:41,176 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.17386841773986816, 'acc': 0.954954981803894, 'f1 micro': 0.95, 'precision micro': 0.96, 'recall micro': 0.95, 'f1 macro': 0.75, 'precision macro': 0.78, 'recall macro': 0.74, 'f1 weighted': 0.95, 'precision weighted': 0.96, 'recall weighted': 0.95}
+2023-04-26 16:33:41,176 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:33:41,189 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.3428 - acc: 0.8984
+200/200 [==============================] - 2s 8ms/step - loss: 0.3447 - acc: 0.8800
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.3813 - acc: 0.8672
+200/200 [==============================] - 1s 7ms/step - loss: 0.4304 - acc: 0.8600
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.3062 - acc: 0.9141
+200/200 [==============================] - 2s 9ms/step - loss: 0.2800 - acc: 0.9250
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.2421 - acc: 0.9375
+200/200 [==============================] - 2s 8ms/step - loss: 0.2069 - acc: 0.9500
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1439 - acc: 0.9609
+200/200 [==============================] - 1s 5ms/step - loss: 0.1313 - acc: 0.9650
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1245 - acc: 0.9766
+200/200 [==============================] - 1s 5ms/step - loss: 0.1136 - acc: 0.9650
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1142 - acc: 0.9766
+200/200 [==============================] - 1s 6ms/step - loss: 0.1307 - acc: 0.9700
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.2326 - acc: 0.9219
+200/200 [==============================] - 2s 8ms/step - loss: 0.1906 - acc: 0.9450
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0925 - acc: 0.9844
+200/200 [==============================] - 2s 10ms/step - loss: 0.0937 - acc: 0.9850
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0846 - acc: 0.9766
+200/200 [==============================] - 2s 9ms/step - loss: 0.0956 - acc: 0.9650
+2023-04-26 16:33:56,350 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 1ms/step
+2023-04-26 16:33:56,674 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.89, 'precision micro': 0.9, 'recall micro': 0.88, 'f1 macro': 0.7, 'precision macro': 0.72, 'recall macro': 0.7, 'f1 weighted': 0.88, 'precision weighted': 0.91, 'recall weighted': 0.88}
+2023-04-26 16:33:56,674 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.3436305522918701, 'acc': 0.9009009003639221, 'f1 micro': 0.89, 'precision micro': 0.9, 'recall micro': 0.88, 'f1 macro': 0.7, 'precision macro': 0.72, 'recall macro': 0.7, 'f1 weighted': 0.88, 'precision weighted': 0.91, 'recall weighted': 0.88}
+2023-04-26 16:33:56,674 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:34:41,317 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:34:41,419 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:34:41,419 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:34:41,420 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:34:41,420 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:34:41] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:34:41,420 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:34:41,420 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:34:41,421 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:34:41,423 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 88us/step
+2023-04-26 16:34:41,466 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:34:41,466 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.1598803550004959, 'acc': 0.9639639854431152, 'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:34:41,466 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:34:41,466 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.2862 - acc: 0.9219
+200/200 [==============================] - 0s 553us/step - loss: 0.2553 - acc: 0.9300
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1882 - acc: 0.9375
+200/200 [==============================] - 0s 540us/step - loss: 0.2041 - acc: 0.9400
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1668 - acc: 0.9609
+200/200 [==============================] - 0s 571us/step - loss: 0.1632 - acc: 0.9650
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.2404 - acc: 0.9141
+200/200 [==============================] - 0s 563us/step - loss: 0.2173 - acc: 0.9200
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1709 - acc: 0.9297
+200/200 [==============================] - 0s 573us/step - loss: 0.1706 - acc: 0.9350
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1138 - acc: 0.9844
+200/200 [==============================] - 0s 566us/step - loss: 0.1128 - acc: 0.9750
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1108 - acc: 0.9531
+200/200 [==============================] - 0s 549us/step - loss: 0.1027 - acc: 0.9600
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1186 - acc: 0.9531
+200/200 [==============================] - 0s 557us/step - loss: 0.0901 - acc: 0.9650
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0676 - acc: 0.9766
+200/200 [==============================] - 0s 551us/step - loss: 0.0693 - acc: 0.9800
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0532 - acc: 1.0000
+200/200 [==============================] - 0s 559us/step - loss: 0.0522 - acc: 0.9900
+2023-04-26 16:34:42,587 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 100us/step
+2023-04-26 16:34:42,633 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.94, 'precision micro': 0.95, 'recall micro': 0.93, 'f1 macro': 0.74, 'precision macro': 0.77, 'recall macro': 0.73, 'f1 weighted': 0.94, 'precision weighted': 0.96, 'recall weighted': 0.93}
+2023-04-26 16:34:42,633 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.22000055015087128, 'acc': 0.9369369149208069, 'f1 micro': 0.94, 'precision micro': 0.95, 'recall micro': 0.93, 'f1 macro': 0.74, 'precision macro': 0.77, 'recall macro': 0.73, 'f1 weighted': 0.94, 'precision weighted': 0.96, 'recall weighted': 0.93}
+2023-04-26 16:34:42,633 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:35:46,890 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:35:46,938 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:35:46,938 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:35:46,938 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:35:46,942 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:35:46] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:35:46,942 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:35:46,942 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:35:46,943 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:35:46,948 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 280us/step
+2023-04-26 16:35:47,120 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:35:47,120 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.15589962899684906, 'acc': 0.9639639854431152, 'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:35:47,120 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:35:47,120 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.3135 - acc: 0.8594
+200/200 [==============================] - 1s 6ms/step - loss: 0.2734 - acc: 0.8750
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1630 - acc: 0.9453
+200/200 [==============================] - 2s 9ms/step - loss: 0.2031 - acc: 0.9300
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1985 - acc: 0.9375
+200/200 [==============================] - 2s 8ms/step - loss: 0.1676 - acc: 0.9450
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1203 - acc: 0.9766
+200/200 [==============================] - 2s 9ms/step - loss: 0.1095 - acc: 0.9750
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0601 - acc: 0.9844
+200/200 [==============================] - 2s 9ms/step - loss: 0.0687 - acc: 0.9850
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0584 - acc: 0.9844
+200/200 [==============================] - 2s 8ms/step - loss: 0.0559 - acc: 0.9900
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1279 - acc: 0.9609
+200/200 [==============================] - 2s 9ms/step - loss: 0.1188 - acc: 0.9700
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0644 - acc: 0.9844
+200/200 [==============================] - 2s 9ms/step - loss: 0.0703 - acc: 0.9750
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0886 - acc: 0.9688
+200/200 [==============================] - 1s 5ms/step - loss: 0.0858 - acc: 0.9700
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0532 - acc: 0.9844
+200/200 [==============================] - 1s 7ms/step - loss: 0.0699 - acc: 0.9800
+2023-04-26 16:36:02,948 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 1ms/step
+2023-04-26 16:36:03,252 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.95, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.74, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.95}
+2023-04-26 16:36:03,253 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.18515101075172424, 'acc': 0.954954981803894, 'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.95, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.74, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.95}
+2023-04-26 16:36:03,253 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:36:53,169 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:36:53,248 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:36:53,249 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:36:53,249 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:36:53,250 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:36:53,250 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:36:53,250 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:36:53,249 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:36:53] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:36:53,265 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 2ms/step
+2023-04-26 16:36:53,847 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:36:53,847 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.14764581620693207, 'acc': 0.9639639854431152, 'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:36:53,848 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:36:53,848 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.2373 - acc: 0.9141
+200/200 [==============================] - 2s 8ms/step - loss: 0.2567 - acc: 0.9200
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.2890 - acc: 0.9062
+200/200 [==============================] - 2s 9ms/step - loss: 0.2522 - acc: 0.9100
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0973 - acc: 0.9844
+200/200 [==============================] - 2s 8ms/step - loss: 0.0975 - acc: 0.9700
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1216 - acc: 0.9609
+200/200 [==============================] - 2s 9ms/step - loss: 0.1178 - acc: 0.9600
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1363 - acc: 0.9609
+200/200 [==============================] - 2s 9ms/step - loss: 0.1272 - acc: 0.9700
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0874 - acc: 0.9688
+200/200 [==============================] - 2s 8ms/step - loss: 0.0814 - acc: 0.9750
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0618 - acc: 0.9844
+200/200 [==============================] - 2s 9ms/step - loss: 0.0530 - acc: 0.9900
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0448 - acc: 0.9922
+200/200 [==============================] - 2s 8ms/step - loss: 0.0408 - acc: 0.9950
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0246 - acc: 1.0000
+200/200 [==============================] - 1s 6ms/step - loss: 0.0264 - acc: 1.0000
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0271 - acc: 0.9922
+200/200 [==============================] - 1s 3ms/step - loss: 0.0243 - acc: 0.9950
+2023-04-26 16:37:09,397 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 308us/step
+2023-04-26 16:37:09,505 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.95, 'precision micro': 0.95, 'recall micro': 0.95, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.74, 'f1 weighted': 0.95, 'precision weighted': 0.96, 'recall weighted': 0.95}
+2023-04-26 16:37:09,506 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.18097473680973053, 'acc': 0.954954981803894, 'f1 micro': 0.95, 'precision micro': 0.95, 'recall micro': 0.95, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.74, 'f1 weighted': 0.95, 'precision weighted': 0.96, 'recall weighted': 0.95}
+2023-04-26 16:37:09,506 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:38:07,828 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:38:07,902 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:38:07,903 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:38:07,903 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:38:07,906 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:38:07,906 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:38:07,906 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:38:07,906 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:38:07] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:38:07,916 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 661us/step
+2023-04-26 16:38:08,223 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:38:08,226 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.14103955030441284, 'acc': 0.9639639854431152, 'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:38:08,227 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:38:08,227 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1786 - acc: 0.9141
+200/200 [==============================] - 2s 9ms/step - loss: 0.1689 - acc: 0.9300
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.2037 - acc: 0.9297
+200/200 [==============================] - 2s 9ms/step - loss: 0.1843 - acc: 0.9300
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1272 - acc: 0.9609
+200/200 [==============================] - 2s 9ms/step - loss: 0.1183 - acc: 0.9650
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0346 - acc: 1.0000
+200/200 [==============================] - 2s 10ms/step - loss: 0.0397 - acc: 0.9950
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0785 - acc: 0.9844
+200/200 [==============================] - 1s 6ms/step - loss: 0.0708 - acc: 0.9900
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0492 - acc: 0.9844
+200/200 [==============================] - 1s 5ms/step - loss: 0.0437 - acc: 0.9900
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0619 - acc: 0.9766
+200/200 [==============================] - 1s 7ms/step - loss: 0.0471 - acc: 0.9850
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0340 - acc: 1.0000
+200/200 [==============================] - 2s 8ms/step - loss: 0.0351 - acc: 1.0000
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0252 - acc: 1.0000
+200/200 [==============================] - 2s 8ms/step - loss: 0.0301 - acc: 0.9950
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0473 - acc: 0.9922
+200/200 [==============================] - 1s 6ms/step - loss: 0.0462 - acc: 0.9900
+2023-04-26 16:38:23,629 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 927us/step
+2023-04-26 16:38:23,988 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.95, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.74, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.95}
+2023-04-26 16:38:23,988 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.1479441523551941, 'acc': 0.954954981803894, 'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.95, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.74, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.95}
+2023-04-26 16:38:23,988 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:39:14,933 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:39:14,978 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:39:14,978 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:39:14,979 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:39:14,979 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:39:14] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:39:14,980 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:39:14,980 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:39:14,980 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:39:14,985 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 583us/step
+2023-04-26 16:39:15,194 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:39:15,194 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.1394003927707672, 'acc': 0.9639639854431152, 'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:39:15,194 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:39:15,194 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1505 - acc: 0.9453
+200/200 [==============================] - 1s 7ms/step - loss: 0.1629 - acc: 0.9400
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1582 - acc: 0.9453
+200/200 [==============================] - 2s 12ms/step - loss: 0.1386 - acc: 0.9500
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0938 - acc: 0.9531
+200/200 [==============================] - 2s 8ms/step - loss: 0.0977 - acc: 0.9500
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0861 - acc: 0.9766
+200/200 [==============================] - 1s 7ms/step - loss: 0.0708 - acc: 0.9850
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0254 - acc: 1.0000
+200/200 [==============================] - 1s 7ms/step - loss: 0.0300 - acc: 0.9950
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0673 - acc: 0.9766
+200/200 [==============================] - 1s 6ms/step - loss: 0.0541 - acc: 0.9850
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0261 - acc: 0.9922
+200/200 [==============================] - 1s 6ms/step - loss: 0.0253 - acc: 0.9950
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0359 - acc: 0.9922
+200/200 [==============================] - 1s 6ms/step - loss: 0.0297 - acc: 0.9900
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0279 - acc: 0.9922
+200/200 [==============================] - 2s 8ms/step - loss: 0.0379 - acc: 0.9850
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0416 - acc: 0.9766
+200/200 [==============================] - 2s 9ms/step - loss: 0.0426 - acc: 0.9800
+2023-04-26 16:39:30,342 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 2ms/step
+2023-04-26 16:39:30,849 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:39:30,850 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.13633331656455994, 'acc': 0.9639639854431152, 'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:39:30,850 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:40:17,230 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:40:17,387 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:40:17,387 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:40:17,387 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:40:17,388 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:40:17] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:40:17,388 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:40:17,388 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:40:17,388 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:40:17,392 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 299us/step
+2023-04-26 16:40:17,534 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:40:17,535 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.1359131783246994, 'acc': 0.9639639854431152, 'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:40:17,535 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:40:17,535 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1477 - acc: 0.9688
+200/200 [==============================] - 0s 2ms/step - loss: 0.1669 - acc: 0.9600
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0531 - acc: 0.9922
+200/200 [==============================] - 0s 2ms/step - loss: 0.0542 - acc: 0.9950
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1169 - acc: 0.9609
+200/200 [==============================] - 1s 3ms/step - loss: 0.0981 - acc: 0.9750
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0551 - acc: 0.9844
+200/200 [==============================] - 2s 8ms/step - loss: 0.0520 - acc: 0.9850
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0240 - acc: 1.0000
+200/200 [==============================] - 2s 10ms/step - loss: 0.0416 - acc: 0.9900
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0377 - acc: 1.0000
+200/200 [==============================] - 2s 10ms/step - loss: 0.0304 - acc: 1.0000
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0413 - acc: 0.9844
+200/200 [==============================] - 2s 10ms/step - loss: 0.0360 - acc: 0.9900
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0288 - acc: 1.0000
+200/200 [==============================] - 2s 8ms/step - loss: 0.0456 - acc: 0.9900
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0647 - acc: 0.9766
+200/200 [==============================] - 2s 9ms/step - loss: 0.0556 - acc: 0.9800
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0182 - acc: 0.9922
+200/200 [==============================] - 2s 8ms/step - loss: 0.0171 - acc: 0.9950
+2023-04-26 16:40:31,781 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 2ms/step
+2023-04-26 16:40:32,326 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.95, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.74, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.95}
+2023-04-26 16:40:32,327 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.17562779784202576, 'acc': 0.9639639854431152, 'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.95, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.74, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.95}
+2023-04-26 16:40:32,327 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:41:21,093 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:41:21,138 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:41:21,175 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:41:21,175 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:41:21,176 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:41:21,176 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:41:21,176 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:41:21,176 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:41:21] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:41:21,185 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 838us/step
+2023-04-26 16:41:21,507 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.79, 'recall macro': 0.75, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:41:21,511 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.13513125479221344, 'acc': 0.9729729890823364, 'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.79, 'recall macro': 0.75, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:41:21,511 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:41:21,511 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0769 - acc: 0.9609
+200/200 [==============================] - 2s 8ms/step - loss: 0.0835 - acc: 0.9650
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1312 - acc: 0.9688
+200/200 [==============================] - 1s 7ms/step - loss: 0.1179 - acc: 0.9750
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0537 - acc: 0.9766
+200/200 [==============================] - 2s 9ms/step - loss: 0.0460 - acc: 0.9850
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0540 - acc: 0.9766
+200/200 [==============================] - 2s 9ms/step - loss: 0.0543 - acc: 0.9800
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0884 - acc: 0.9766
+200/200 [==============================] - 1s 5ms/step - loss: 0.0651 - acc: 0.9850
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0158 - acc: 1.0000
+200/200 [==============================] - 2s 10ms/step - loss: 0.0172 - acc: 0.9950
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0306 - acc: 0.9922
+200/200 [==============================] - 2s 9ms/step - loss: 0.0358 - acc: 0.9900
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0182 - acc: 1.0000
+200/200 [==============================] - 2s 8ms/step - loss: 0.0269 - acc: 0.9950
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0139 - acc: 1.0000
+200/200 [==============================] - 2s 8ms/step - loss: 0.0178 - acc: 1.0000
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0218 - acc: 1.0000
+200/200 [==============================] - 1s 7ms/step - loss: 0.0191 - acc: 1.0000
+2023-04-26 16:41:37,615 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 486us/step
+2023-04-26 16:41:37,763 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:41:37,763 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.14167943596839905, 'acc': 0.9639639854431152, 'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:41:37,763 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:42:24,610 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:42:25,952 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:42:25,953 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:42:25,953 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:42:25,959 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:42:25] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:42:25,959 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:42:25,960 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:42:25,960 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:42:25,974 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 722us/step
+2023-04-26 16:42:26,299 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:42:26,302 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.13289225101470947, 'acc': 0.9729729890823364, 'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:42:26,303 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:42:26,303 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0804 - acc: 0.9688
+200/200 [==============================] - 1s 7ms/step - loss: 0.1150 - acc: 0.9600
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0658 - acc: 0.9688
+200/200 [==============================] - 2s 8ms/step - loss: 0.0831 - acc: 0.9700
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0587 - acc: 0.9844
+200/200 [==============================] - 1s 6ms/step - loss: 0.0781 - acc: 0.9800
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0758 - acc: 0.9844
+200/200 [==============================] - 2s 8ms/step - loss: 0.0599 - acc: 0.9900
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0332 - acc: 0.9844
+200/200 [==============================] - 2s 8ms/step - loss: 0.0267 - acc: 0.9900
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0206 - acc: 1.0000
+200/200 [==============================] - 2s 8ms/step - loss: 0.0168 - acc: 1.0000
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0496 - acc: 0.9844
+200/200 [==============================] - 2s 8ms/step - loss: 0.0470 - acc: 0.9850
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0191 - acc: 1.0000
+200/200 [==============================] - 2s 9ms/step - loss: 0.0206 - acc: 1.0000
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0086 - acc: 1.0000
+200/200 [==============================] - 2s 8ms/step - loss: 0.0082 - acc: 1.0000
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0198 - acc: 0.9922
+200/200 [==============================] - 2s 8ms/step - loss: 0.0157 - acc: 0.9950
+2023-04-26 16:42:41,861 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 1ms/step
+2023-04-26 16:42:42,215 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.95, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.74, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.95}
+2023-04-26 16:42:42,215 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.16157442331314087, 'acc': 0.954954981803894, 'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.95, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.74, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.95}
+2023-04-26 16:42:42,215 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:43:30,504 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:43:30,579 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:43:30,579 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:43:30,580 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:43:30,580 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:43:30] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:43:30,580 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:43:30,581 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:43:30,581 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:43:30,591 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 2ms/step
+2023-04-26 16:43:31,148 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:43:31,149 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.13112182915210724, 'acc': 0.9729729890823364, 'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:43:31,149 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:43:31,149 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1439 - acc: 0.9453
+200/200 [==============================] - 1s 7ms/step - loss: 0.1345 - acc: 0.9400
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0520 - acc: 0.9766
+200/200 [==============================] - 2s 9ms/step - loss: 0.0794 - acc: 0.9650
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0525 - acc: 0.9922
+200/200 [==============================] - 2s 9ms/step - loss: 0.0492 - acc: 0.9900
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0169 - acc: 1.0000
+200/200 [==============================] - 2s 10ms/step - loss: 0.0247 - acc: 0.9950
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0207 - acc: 1.0000
+200/200 [==============================] - 2s 9ms/step - loss: 0.0237 - acc: 1.0000
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0299 - acc: 0.9922
+200/200 [==============================] - 2s 8ms/step - loss: 0.0252 - acc: 0.9950
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0191 - acc: 1.0000
+200/200 [==============================] - 2s 8ms/step - loss: 0.0159 - acc: 1.0000
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0121 - acc: 1.0000
+200/200 [==============================] - 1s 6ms/step - loss: 0.0118 - acc: 1.0000
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0135 - acc: 1.0000
+200/200 [==============================] - 1s 6ms/step - loss: 0.0144 - acc: 1.0000
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0208 - acc: 1.0000
+200/200 [==============================] - 1s 4ms/step - loss: 0.0248 - acc: 1.0000
+2023-04-26 16:43:46,676 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 541us/step
+2023-04-26 16:43:46,822 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.95, 'precision micro': 0.95, 'recall micro': 0.95, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.74, 'f1 weighted': 0.95, 'precision weighted': 0.96, 'recall weighted': 0.95}
+2023-04-26 16:43:46,822 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.1820891797542572, 'acc': 0.954954981803894, 'f1 micro': 0.95, 'precision micro': 0.95, 'recall micro': 0.95, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.74, 'f1 weighted': 0.95, 'precision weighted': 0.96, 'recall weighted': 0.95}
+2023-04-26 16:43:46,823 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:44:40,565 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:44:40,631 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:44:40,631 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:44:40,632 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:44:40] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:44:40,632 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:44:40,639 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:44:40,639 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:44:40,639 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:44:40,644 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 988us/step
+2023-04-26 16:44:40,939 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:44:40,939 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.12899893522262573, 'acc': 0.9729729890823364, 'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:44:40,939 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:44:40,939 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0714 - acc: 0.9766
+200/200 [==============================] - 2s 9ms/step - loss: 0.1034 - acc: 0.9600
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.1148 - acc: 0.9766
+200/200 [==============================] - 2s 8ms/step - loss: 0.0988 - acc: 0.9750
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0416 - acc: 0.9844
+200/200 [==============================] - 2s 9ms/step - loss: 0.0313 - acc: 0.9900
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0662 - acc: 0.9844
+200/200 [==============================] - 2s 8ms/step - loss: 0.0503 - acc: 0.9900
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0228 - acc: 0.9922
+200/200 [==============================] - 1s 6ms/step - loss: 0.0297 - acc: 0.9850
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0161 - acc: 1.0000
+200/200 [==============================] - 2s 9ms/step - loss: 0.0325 - acc: 0.9950
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0243 - acc: 1.0000
+200/200 [==============================] - 2s 9ms/step - loss: 0.0207 - acc: 1.0000
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0070 - acc: 1.0000
+200/200 [==============================] - 1s 7ms/step - loss: 0.0143 - acc: 1.0000
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0252 - acc: 0.9922
+200/200 [==============================] - 1s 5ms/step - loss: 0.0248 - acc: 0.9950
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0137 - acc: 1.0000
+200/200 [==============================] - 1s 3ms/step - loss: 0.0183 - acc: 0.9950
+2023-04-26 16:44:55,544 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 836us/step
+2023-04-26 16:44:55,800 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:44:55,801 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.15188553929328918, 'acc': 0.9639639854431152, 'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.75, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:44:55,801 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:45:46,590 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:45:47,877 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:45:47,877 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:45:47,877 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:45:47,880 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:45:47,880 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:45:47,880 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:45:47,879 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:45:47] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:45:47,886 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 846us/step
+2023-04-26 16:45:48,105 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:45:48,105 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.12655141949653625, 'acc': 0.9729729890823364, 'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:45:48,105 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:45:48,105 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0984 - acc: 0.9766
+200/200 [==============================] - 1s 6ms/step - loss: 0.1259 - acc: 0.9650
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0825 - acc: 0.9688
+200/200 [==============================] - 2s 11ms/step - loss: 0.0783 - acc: 0.9700
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0282 - acc: 0.9922
+200/200 [==============================] - 2s 9ms/step - loss: 0.0344 - acc: 0.9900
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0456 - acc: 0.9766
+200/200 [==============================] - 2s 9ms/step - loss: 0.0420 - acc: 0.9850
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0394 - acc: 0.9922
+200/200 [==============================] - 2s 8ms/step - loss: 0.0411 - acc: 0.9900
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0119 - acc: 1.0000
+200/200 [==============================] - 2s 9ms/step - loss: 0.0139 - acc: 1.0000
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0373 - acc: 0.9844
+200/200 [==============================] - 2s 8ms/step - loss: 0.0332 - acc: 0.9900
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0208 - acc: 0.9922
+200/200 [==============================] - 2s 8ms/step - loss: 0.0141 - acc: 0.9950
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0182 - acc: 0.9922
+200/200 [==============================] - 1s 6ms/step - loss: 0.0138 - acc: 0.9950
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0279 - acc: 0.9922
+200/200 [==============================] - 1s 3ms/step - loss: 0.0197 - acc: 0.9950
+2023-04-26 16:46:03,701 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 1ms/step
+2023-04-26 16:46:03,972 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.98, 'precision micro': 0.98, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.98, 'precision weighted': 0.98, 'recall weighted': 0.97}
+2023-04-26 16:46:03,973 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.1217736154794693, 'acc': 0.9729729890823364, 'f1 micro': 0.98, 'precision micro': 0.98, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.98, 'precision weighted': 0.98, 'recall weighted': 0.97}
+2023-04-26 16:46:03,973 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:46:52,390 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:46:53,354 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:46:53,354 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:46:53,354 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:46:53,355 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:46:53] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:46:53,355 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:46:53,355 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:46:53,355 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:46:53,361 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 504us/step
+2023-04-26 16:46:53,505 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:46:53,505 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.12606965005397797, 'acc': 0.9729729890823364, 'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:46:53,505 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:46:53,505 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0691 - acc: 0.9766
+200/200 [==============================] - 1s 3ms/step - loss: 0.0941 - acc: 0.9700
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0695 - acc: 0.9766
+200/200 [==============================] - 1s 3ms/step - loss: 0.0497 - acc: 0.9850
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0414 - acc: 0.9844
+200/200 [==============================] - 1s 4ms/step - loss: 0.0342 - acc: 0.9900
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0620 - acc: 0.9766
+200/200 [==============================] - 2s 8ms/step - loss: 0.0547 - acc: 0.9800
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0211 - acc: 0.9922
+200/200 [==============================] - 2s 10ms/step - loss: 0.0228 - acc: 0.9950
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0098 - acc: 1.0000
+200/200 [==============================] - 2s 10ms/step - loss: 0.0106 - acc: 1.0000
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0108 - acc: 1.0000
+200/200 [==============================] - 2s 8ms/step - loss: 0.0106 - acc: 1.0000
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0098 - acc: 1.0000
+200/200 [==============================] - 2s 9ms/step - loss: 0.0099 - acc: 1.0000
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0126 - acc: 1.0000
+200/200 [==============================] - 2s 9ms/step - loss: 0.0200 - acc: 1.0000
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0202 - acc: 0.9844
+200/200 [==============================] - 2s 8ms/step - loss: 0.0299 - acc: 0.9800
+2023-04-26 16:47:07,609 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 2ms/step
+2023-04-26 16:47:08,047 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.95, 'precision micro': 0.95, 'recall micro': 0.95, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.74, 'f1 weighted': 0.95, 'precision weighted': 0.96, 'recall weighted': 0.95}
+2023-04-26 16:47:08,052 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.15082457661628723, 'acc': 0.954954981803894, 'f1 micro': 0.95, 'precision micro': 0.95, 'recall micro': 0.95, 'f1 macro': 0.76, 'precision macro': 0.78, 'recall macro': 0.74, 'f1 weighted': 0.95, 'precision weighted': 0.96, 'recall weighted': 0.95}
+2023-04-26 16:47:08,052 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:47:57,125 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:47:57,148 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:47:57,149 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:47:57,149 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:47:57,149 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:47:57] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:47:57,149 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:47:57,149 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:47:57,149 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:47:57,152 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 96us/step
+2023-04-26 16:47:57,204 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:47:57,204 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.12537643313407898, 'acc': 0.9729729890823364, 'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:47:57,204 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:47:57,204 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0321 - acc: 0.9922
+200/200 [==============================] - 0s 995us/step - loss: 0.0794 - acc: 0.9700
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0425 - acc: 0.9922
+200/200 [==============================] - 0s 876us/step - loss: 0.0418 - acc: 0.9900
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0170 - acc: 1.0000
+200/200 [==============================] - 0s 937us/step - loss: 0.0235 - acc: 0.9950
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0228 - acc: 0.9922
+200/200 [==============================] - 0s 1ms/step - loss: 0.0202 - acc: 0.9950
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0091 - acc: 1.0000
+200/200 [==============================] - 0s 960us/step - loss: 0.0116 - acc: 0.9950
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0239 - acc: 0.9922
+200/200 [==============================] - 0s 1ms/step - loss: 0.0267 - acc: 0.9950
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0163 - acc: 1.0000
+200/200 [==============================] - 0s 1ms/step - loss: 0.0157 - acc: 1.0000
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0066 - acc: 1.0000
+200/200 [==============================] - 0s 1ms/step - loss: 0.0086 - acc: 1.0000
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0119 - acc: 0.9922
+200/200 [==============================] - 0s 2ms/step - loss: 0.0151 - acc: 0.9950
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0263 - acc: 0.9844
+200/200 [==============================] - 1s 6ms/step - loss: 0.0202 - acc: 0.9900
+2023-04-26 16:48:00,543 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 932us/step
+2023-04-26 16:48:00,814 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:48:00,814 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.13320572674274445, 'acc': 0.9729729890823364, 'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:48:00,814 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:49:11,724 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:49:11,824 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:49:11,824 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:49:11,825 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:49:11,829 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:49:11] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:49:11,829 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:49:11,829 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:49:11,829 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:49:11,835 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 2ms/step
+2023-04-26 16:49:12,415 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:49:12,415 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.12590546905994415, 'acc': 0.9729729890823364, 'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:49:12,415 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:49:12,416 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0428 - acc: 0.9844
+200/200 [==============================] - 2s 9ms/step - loss: 0.0569 - acc: 0.9800
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0668 - acc: 0.9688
+200/200 [==============================] - 2s 8ms/step - loss: 0.0653 - acc: 0.9700
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0225 - acc: 0.9922
+200/200 [==============================] - 2s 9ms/step - loss: 0.0308 - acc: 0.9900
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0373 - acc: 0.9844
+200/200 [==============================] - 2s 9ms/step - loss: 0.0342 - acc: 0.9900
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0050 - acc: 1.0000
+200/200 [==============================] - 2s 9ms/step - loss: 0.0105 - acc: 1.0000
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0419 - acc: 0.9766
+200/200 [==============================] - 1s 6ms/step - loss: 0.0386 - acc: 0.9800
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0166 - acc: 1.0000
+200/200 [==============================] - 2s 10ms/step - loss: 0.0184 - acc: 0.9950
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0147 - acc: 1.0000
+200/200 [==============================] - 1s 7ms/step - loss: 0.0129 - acc: 1.0000
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0079 - acc: 1.0000
+200/200 [==============================] - 1s 6ms/step - loss: 0.0062 - acc: 1.0000
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0116 - acc: 1.0000
+200/200 [==============================] - 1s 4ms/step - loss: 0.0094 - acc: 1.0000
+2023-04-26 16:49:27,707 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 724us/step
+2023-04-26 16:49:27,887 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.96, 'f1 macro': 0.77, 'precision macro': 0.79, 'recall macro': 0.76, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:49:27,888 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.14031951129436493, 'acc': 0.9729729890823364, 'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.96, 'f1 macro': 0.77, 'precision macro': 0.79, 'recall macro': 0.76, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:49:27,888 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:50:18,139 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:50:18,192 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:50:18,193 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:50:18,193 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:50:18] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:50:18,194 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:50:18,194 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:50:18,194 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:50:18,194 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:50:18,200 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 456us/step
+2023-04-26 16:50:18,423 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:50:18,423 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.12364018708467484, 'acc': 0.9729729890823364, 'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:50:18,423 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:50:18,423 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0881 - acc: 0.9609
+200/200 [==============================] - 1s 6ms/step - loss: 0.1113 - acc: 0.9600
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0104 - acc: 1.0000
+200/200 [==============================] - 2s 9ms/step - loss: 0.0188 - acc: 0.9950
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0160 - acc: 1.0000
+200/200 [==============================] - 1s 7ms/step - loss: 0.0156 - acc: 1.0000
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0309 - acc: 0.9922
+200/200 [==============================] - 2s 8ms/step - loss: 0.0212 - acc: 0.9950
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0278 - acc: 0.9922
+200/200 [==============================] - 2s 9ms/step - loss: 0.0241 - acc: 0.9950
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0397 - acc: 0.9844
+200/200 [==============================] - 2s 9ms/step - loss: 0.0310 - acc: 0.9900
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0115 - acc: 1.0000
+200/200 [==============================] - 2s 8ms/step - loss: 0.0172 - acc: 0.9950
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0094 - acc: 1.0000
+200/200 [==============================] - 2s 8ms/step - loss: 0.0148 - acc: 0.9950
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0066 - acc: 1.0000
+200/200 [==============================] - 2s 8ms/step - loss: 0.0048 - acc: 1.0000
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0085 - acc: 1.0000
+200/200 [==============================] - 2s 8ms/step - loss: 0.0100 - acc: 0.9950
+2023-04-26 16:50:34,291 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 1ms/step
+2023-04-26 16:50:34,551 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.77, 'recall macro': 0.76, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:50:34,551 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.12639383971691132, 'acc': 0.9639639854431152, 'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.77, 'recall macro': 0.76, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:50:34,551 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:51:14,062 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :7
+2023-04-26 16:51:14,133 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a async request
+2023-04-26 16:51:14,134 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | finished async request
+2023-04-26 16:51:14,134 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Handling async request in a separate thread
+2023-04-26 16:51:14,135 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:51:14] "POST /7 HTTP/1.1" 200 -
+2023-04-26 16:51:14,141 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:51:14,143 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  7
+2023-04-26 16:51:14,143 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 7
+2023-04-26 16:51:14,150 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local model updated.
+
+111/111 [==============================] - 0s 1ms/step
+2023-04-26 16:51:14,646 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:51:14,646 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.12433607876300812, 'acc': 0.9729729890823364, 'f1 micro': 0.97, 'precision micro': 0.97, 'recall micro': 0.97, 'f1 macro': 0.78, 'precision macro': 0.79, 'recall macro': 0.77, 'f1 weighted': 0.97, 'precision weighted': 0.97, 'recall weighted': 0.97}
+2023-04-26 16:51:14,646 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training started...
+2023-04-26 16:51:14,646 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | Training hps for this round => batch_size: 128, epochs 10, steps_per_epoch 100
+Epoch 1/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0749 - acc: 0.9688
+200/200 [==============================] - 2s 8ms/step - loss: 0.0584 - acc: 0.9750
+Epoch 2/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0610 - acc: 0.9766
+200/200 [==============================] - 2s 8ms/step - loss: 0.0476 - acc: 0.9800
+Epoch 3/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0105 - acc: 1.0000
+200/200 [==============================] - 2s 8ms/step - loss: 0.0288 - acc: 0.9850
+Epoch 4/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0296 - acc: 0.9844
+200/200 [==============================] - 2s 9ms/step - loss: 0.0246 - acc: 0.9900
+Epoch 5/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0055 - acc: 1.0000
+200/200 [==============================] - 2s 9ms/step - loss: 0.0057 - acc: 1.0000
+Epoch 6/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0200 - acc: 0.9922
+200/200 [==============================] - 2s 8ms/step - loss: 0.0181 - acc: 0.9950
+Epoch 7/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0153 - acc: 1.0000
+200/200 [==============================] - 2s 10ms/step - loss: 0.0135 - acc: 1.0000
+Epoch 8/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0080 - acc: 1.0000
+200/200 [==============================] - 2s 8ms/step - loss: 0.0089 - acc: 1.0000
+Epoch 9/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0142 - acc: 0.9922
+200/200 [==============================] - 1s 6ms/step - loss: 0.0119 - acc: 0.9950
+Epoch 10/10
+
+128/200 [==================>...........] - ETA: 0s - loss: 0.0065 - acc: 1.0000
+200/200 [==============================] - 0s 2ms/step - loss: 0.0098 - acc: 1.0000
+2023-04-26 16:51:30,182 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | Local training done, generating model update...
+
+111/111 [==============================] - 0s 263us/step
+2023-04-26 16:51:30,275 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.77, 'recall macro': 0.76, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:51:30,275 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.1264188438653946, 'acc': 0.9639639854431152, 'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.77, 'recall macro': 0.76, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:51:30,275 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | successfully finished async request
+2023-04-26 16:52:14,892 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :10
+2023-04-26 16:52:14,893 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:52:14,894 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  10
+2023-04-26 16:52:14,894 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 10
+
+111/111 [==============================] - 0s 501us/step
+2023-04-26 16:52:15,138 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.77, 'recall macro': 0.76, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:52:15,138 | 1.1.0 | INFO | ibmfl.model.keras_fl_model                    | {'loss': 0.1264188438653946, 'acc': 0.9639639854431152, 'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.77, 'recall macro': 0.76, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:52:15,139 | 1.1.0 | INFO | ibmfl.party.training.local_training_handler   | {'loss': 0.1264188438653946, 'acc': 0.9639639854431152, 'f1 micro': 0.96, 'precision micro': 0.96, 'recall micro': 0.96, 'f1 macro': 0.76, 'precision macro': 0.77, 'recall macro': 0.76, 'f1 weighted': 0.96, 'precision weighted': 0.97, 'recall weighted': 0.96}
+2023-04-26 16:52:15,141 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:52:15] "POST /10 HTTP/1.1" 200 -
+2023-04-26 16:52:15,628 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Request received for path :14
+2023-04-26 16:52:15,633 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request from aggregator
+2023-04-26 16:52:15,633 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in with message_type:  14
+2023-04-26 16:52:15,633 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | Received request in PH 14
+2023-04-26 16:52:15,633 | 1.1.0 | INFO | ibmfl.party.party_protocol_handler            | received a STOP request
+2023-04-26 16:52:15,633 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:52:15] "POST /14 HTTP/1.1" 200 -
+2023-04-26 16:52:15,723 | 1.1.0 | INFO | ibmfl.connection.flask_connection             | Stopping Receiver and Sender
+2023-04-26 16:52:15,726 | 1.1.0 | INFO | werkzeug                                      | 192.168.1.176 - - [26/Apr/2023 16:52:15] "POST /shutdown HTTP/1.1" 200 -
+2023-04-26 16:52:15,727 | 1.1.0 | INFO | ibmfl.party.party                             | Party stop successful

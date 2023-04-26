@@ -1,0 +1,38 @@
+aggregator:
+  ip: 192.168.1.176
+  port: '5000'
+connection:
+  info:
+    ip: 192.168.1.167
+    port: '8015'
+    tls_config:
+      enable: false
+  name: FlaskConnection
+  path: ibmfl.connection.flask_connection
+  sync: false
+data:
+  info:
+    npz_file: /home/trevormaxjs/Documents/Engineering/Research/testtest/unbalanced_data/data_party15.npz
+  name: MnistKerasDataHandler
+  path: ibmfl.util.data_handlers.mnist_keras_data_handler
+local_training:
+  name: LocalTrainingHandler
+  path: ibmfl.party.training.local_training_handler
+metrics_recorder:
+  compute_post_train_eval: true
+  compute_pre_train_eval: false
+  name: MetricsRecorder
+  output_file: /home/trevormaxjs/Documents/Engineering/Research/20230426T202540/metrics_party15
+  output_type: json
+  path: ibmfl.party.metrics.metrics_recorder
+model:
+  name: KerasFLModel
+  path: ibmfl.model.keras_fl_model
+  spec:
+    model_definition: /home/trevormaxjs/Documents/Engineering/Research/testtest/compiled_keras.h5
+    model_name: keras-cnn
+privacy:
+  metrics: true
+protocol_handler:
+  name: PartyProtocolHandler
+  path: ibmfl.party.party_protocol_handler
