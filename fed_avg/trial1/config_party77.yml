@@ -1,0 +1,38 @@
+aggregator:
+  ip: 192.168.1.176
+  port: '5000'
+connection:
+  info:
+    ip: 192.168.1.197
+    port: '8077'
+    tls_config:
+      enable: false
+  name: FlaskConnection
+  path: ibmfl.connection.flask_connection
+  sync: false
+data:
+  info:
+    npz_file: /home/mud/ibmfl/testtest/unbalanced_data/data_party77.npz
+  name: MnistKerasDataHandler
+  path: ibmfl.util.data_handlers.mnist_keras_data_handler
+local_training:
+  name: FedAvgLocalTrainingHandler
+  path: ibmfl.party.training.fedavg_local_training_handler
+metrics_recorder:
+  compute_post_train_eval: true
+  compute_pre_train_eval: false
+  name: MetricsRecorder
+  output_file: /home/mud/ibmfl/20230426T185313/metrics_party77
+  output_type: json
+  path: ibmfl.party.metrics.metrics_recorder
+model:
+  name: KerasFLModel
+  path: ibmfl.model.keras_fl_model
+  spec:
+    model_definition: /home/mud/ibmfl/testtest/compiled_keras.h5
+    model_name: keras-cnn
+privacy:
+  metrics: true
+protocol_handler:
+  name: PartyProtocolHandler
+  path: ibmfl.party.party_protocol_handler

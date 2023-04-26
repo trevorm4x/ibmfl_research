@@ -5328,3 +5328,34 @@ Traceback (most recent call last):
   File "/home/trevormaxjs/.pyenv/versions/3.6.15/lib/python3.6/json/decoder.py", line 357, in raw_decode
     raise JSONDecodeError("Expecting value", s, err.value) from None
 json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-04-26 14:10:30,183 | 1.1.0 | ERROR | ibmfl.aggregator.protohandler.proto_handler   | Party did not reply in time [Registered=90] [Quorum=45]
+2023-04-26 14:10:30,184 | 1.1.0 | ERROR | ibmfl.aggregator.aggregator                   | Exception occurred while training.
+Traceback (most recent call last):
+  File "/home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/ibmfl/aggregator/aggregator.py", line 211, in start_training
+    self.fusion.start_global_training()
+  File "/home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/ibmfl/aggregator/fusion/iter_avg_fusion_handler.py", line 111, in start_global_training
+    lst_replies = self.query_all_parties(payload)
+  File "/home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/ibmfl/aggregator/fusion/fusion_handler.py", line 231, in query_all_parties
+    lst_model_updates = self.query_parties(payload, lst_parties)
+  File "/home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/ibmfl/aggregator/fusion/fusion_handler.py", line 261, in query_parties
+    return_responding_parties=return_party_list
+  File "/home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/ibmfl/aggregator/protohandler/proto_handler.py", line 392, in query_parties
+    quorum_offset=quorum_offset)
+  File "/home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/ibmfl/aggregator/protohandler/proto_handler.py", line 823, in periodically_verify_quorum
+    repr(len(party_ids) + quorum_offset) + '. Quorum=' + repr(target_quorum) + '.')
+ibmfl.exceptions.QuorumException: Max-timeout: quorum not reached. Party did not reply in time. Registered=90. Quorum=45.
+2023-04-26 14:10:30,187 | 1.1.0 | ERROR | ibmfl.aggregator.aggregator                   | Max-timeout: quorum not reached. Party did not reply in time. Registered=90. Quorum=45.
+Traceback (most recent call last):
+  File "/home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/ibmfl/aggregator/aggregator.py", line 211, in start_training
+    self.fusion.start_global_training()
+  File "/home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/ibmfl/aggregator/fusion/iter_avg_fusion_handler.py", line 111, in start_global_training
+    lst_replies = self.query_all_parties(payload)
+  File "/home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/ibmfl/aggregator/fusion/fusion_handler.py", line 231, in query_all_parties
+    lst_model_updates = self.query_parties(payload, lst_parties)
+  File "/home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/ibmfl/aggregator/fusion/fusion_handler.py", line 261, in query_parties
+    return_responding_parties=return_party_list
+  File "/home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/ibmfl/aggregator/protohandler/proto_handler.py", line 392, in query_parties
+    quorum_offset=quorum_offset)
+  File "/home/trevormaxjs/Documents/Engineering/Research/venv/lib/python3.6/site-packages/ibmfl/aggregator/protohandler/proto_handler.py", line 823, in periodically_verify_quorum
+    repr(len(party_ids) + quorum_offset) + '. Quorum=' + repr(target_quorum) + '.')
+ibmfl.exceptions.QuorumException: Max-timeout: quorum not reached. Party did not reply in time. Registered=90. Quorum=45.
