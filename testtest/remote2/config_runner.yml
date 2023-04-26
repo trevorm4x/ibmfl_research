@@ -1,0 +1,137 @@
+experiments:
+- agg_machine: local0
+  local_ibmfl_dir: /home/trevormaxjs/Documents/Engineering/Research/ibmfl
+  local_staging_dir: /home/trevormaxjs/Documents/Engineering/Research
+  n_parties: 20
+  n_rounds: 20
+  n_trials: 1
+  party_machines:
+  - remote0
+  - remote1
+  - remote2
+  - remote3
+  - remote4
+  - remote5
+  - remote6
+  - remote7
+  - remote8
+  - remote9
+  - remote10
+  - local1
+  - local2
+  - local3
+  - local4
+  - local5
+  - local6
+  - local7
+  - local8
+  - local9
+  postproc_fn: gen_reward_vs_time_plots
+  postproc_x_key: post_train:ts
+  postproc_y_keys:
+  - post_train:eval:loss
+  - post_train:eval:acc
+  shuffle_party_machines: false
+isLocalRun: false
+machines:
+  default:
+    ibmfl_dir: /home/trevormaxjs/Documents/Engineering/Research/ibmfl
+    staging_dir: /home/trevormaxjs/Documents/Engineering/Research
+    venv_dir: /home/trevormaxjs/Documents/Engineering/Research/venv
+    venv_uses_conda: false
+  local0:
+    ip_address: 192.168.1.176
+    port_number: 5000
+    ssh_username: trevormaxjs
+  local1:
+    ip_address: 192.168.1.176
+    port_number: 8085
+    ssh_username: trevormaxjs
+  remote0:
+    ip_address: 192.168.1.197
+    port_number: 8090
+    ssh_username: mud
+    ibmfl_dir: /home/mud/research/ibmfl
+    staging_dir: /home/mud/research/
+    venv_dir: /home/mud/research/venv
+  remote1:
+    ip_address: 192.168.1.197
+    port_number: 8095
+    ssh_username: mud
+    ibmfl_dir: /home/mud/research/ibmfl
+    staging_dir: /home/mud/research/
+    venv_dir: /home/mud/research/venv
+  remote2:
+    ip_address: 192.168.1.197
+    port_number: 8096
+    ssh_username: mud
+    ibmfl_dir: /home/mud/research/ibmfl
+    staging_dir: /home/mud/research/
+    venv_dir: /home/mud/research/venv
+  remote3:
+    ip_address: 192.168.1.197
+    port_number: 8097
+    ssh_username: mud
+    ibmfl_dir: /home/mud/research/ibmfl
+    staging_dir: /home/mud/research/
+    venv_dir: /home/mud/research/venv
+  remote4:
+    ip_address: 192.168.1.167
+    port_number: 8098
+    ssh_username: trevormaxjs
+  remote5:
+    ip_address: 192.168.1.167
+    port_number: 8099
+    ssh_username: trevormaxjs
+  remote6:
+    ip_address: 192.168.1.167
+    port_number: 8100
+    ssh_username: trevormaxjs
+  remote7:
+    ip_address: 192.168.1.167
+    port_number: 8101
+    ssh_username: trevormaxjs
+  remote8:
+    ip_address: 192.168.1.167
+    port_number: 8102
+    ssh_username: trevormaxjs
+  remote9:
+    ip_address: 192.168.1.167
+    port_number: 8103
+    ssh_username: trevormaxjs
+  local2:
+    ip_address: 192.168.1.176
+    port_number: 8086
+    ssh_username: trevormaxjs
+  remote10:
+    ip_address: 192.168.1.167
+    port_number: 8104
+    ssh_username: trevormaxjs
+  local3:
+    ip_address: 192.168.1.176
+    port_number: 8087
+    ssh_username: trevormaxjs
+  local4:
+    ip_address: 192.168.1.176
+    port_number: 8088
+    ssh_username: trevormaxjs
+  local5:
+    ip_address: 192.168.1.176
+    port_number: 8089
+    ssh_username: trevormaxjs
+  local6:
+    ip_address: 192.168.1.176
+    port_number: 8090
+    ssh_username: trevormaxjs
+  local7:
+    ip_address: 192.168.1.176
+    port_number: 8091
+    ssh_username: trevormaxjs
+  local8:
+    ip_address: 192.168.1.176
+    port_number: 8092
+    ssh_username: trevormaxjs
+  local9:
+    ip_address: 192.168.1.176
+    port_number: 8093
+    ssh_username: trevormaxjs
